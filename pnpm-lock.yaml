@@ -39,8 +39,8 @@ importers:
         specifier: ^3.36.0
         version: 3.36.0(@cloudflare/workers-types@4.20240320.1)
       wurk:
-        specifier: ^0.4.1
-        version: 0.4.1
+        specifier: ^0.4.2
+        version: 0.4.2
 
   packages/page:
     dependencies:
@@ -1496,19 +1496,19 @@ packages:
   /@wurk/command-exec@0.4.0:
     resolution: {integrity: sha512-EZeclV07zhwLgKZ+1f1cdhAFhT1d4rOjQia9h5U6aCWc6aE0p6h2ppzd2aLclHyKAScNNzCZn/ya0txDciFByQ==}
     dependencies:
-      wurk: 0.4.1
+      wurk: 0.4.2
     dev: true
 
   /@wurk/command-run@0.4.0:
     resolution: {integrity: sha512-fOXH9F9K2iBORkxlvNGZOXXAz0bP+tdwO4360Zs2AnYzBzFAL37dOzSF428TYKoxFbwMgaqKqHZmWwipJ/qUHQ==}
     dependencies:
-      wurk: 0.4.1
+      wurk: 0.4.2
     dev: true
 
   /@wurk/command-vitest@0.4.0:
     resolution: {integrity: sha512-etWWuboz2Tlwvcmtnec2f4uogu23aYdT3ZtgeIXCrrTnuLZmZBnvBVoOPmFgrA4VOo0yMnSg9ircA4ELTVoCaQ==}
     dependencies:
-      wurk: 0.4.1
+      wurk: 0.4.2
     dev: true
 
   /@wurk/git@0.4.0:
@@ -4845,9 +4845,9 @@ packages:
         optional: true
     dev: true
 
-  /wurk@0.4.1:
-    resolution: {integrity: sha512-wd2sYMBpiLmULICLdoaI23BB99QRr1c1AACwMlW+8fzCEn6pXZnLn27l8e5DPo2/bGECrWXGfFNNg80I//7xcQ==}
-    engines: {node: '>=18', npm: '>=9'}
+  /wurk@0.4.2:
+    resolution: {integrity: sha512-QeHiQkikjbrqcr0lxQJ8kFs+BmRhv2ahm/OvpZ9U8Hqkhs6oL7Dydmw+f8K9yBszHhN4A7/M7S8foyXITsBgzA==}
+    engines: {node: '>=20'}
     hasBin: true
     dependencies:
       '@wurk/cli': 0.4.0
