@@ -1,3 +1,3 @@
-# Cloudflare Testing
+# Cloudflare
 
-Just checking out cloudflare.
+Experimenting with cloudflare.

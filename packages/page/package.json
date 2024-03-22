@@ -3,9 +3,9 @@
   "name": "page",
   "type": "module",
   "scripts": {
-    "build": "tsc -p src/tsconfig.json",
-    "start": "wrangler pages dev --port=8080 dist",
-    "deploy": "wrangler pages deploy dist --project-name=cloudflare-page-test"
+    "build": "vite build",
+    "start": "wrangler pages dev --compatibility-date=2024-03-05 --port=8080 --live-reload -- vite dev",
+    "deploy": "wrangler pages deploy --project-name=cloudflare-page-test dist"
   },
   "dependencies": {
     "@types/react": "^18.2.67",
@@ -15,7 +15,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.1.6",
-    "vite-plugin-checker": "^0.6.4"
+    "vite": "^5.2.2",
+    "vite-plugin-checker": "^0.6.4",
+    "vite-plugin-refresh": "^1.0.3"
   }
 }
