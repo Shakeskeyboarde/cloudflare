@@ -27,10 +27,10 @@
     "@wurk/command-run": "^0.4.0",
     "@wurk/command-vitest": "^0.4.0",
     "eslint": "^8.57.0",
-    "eslint-config-rational": "^5.0.8",
+    "eslint-config-rational": "^5.0.9",
     "typescript": "^5.4.3",
     "vitest": "^1.4.0",
-    "wrangler": "^3.36.0",
-    "wurk": "^0.4.2"
+    "wrangler": "^3.37.0",
+    "wurk": "^0.4.3"
   }
 }
